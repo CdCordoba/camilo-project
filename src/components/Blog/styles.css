@@ -1,0 +1,24 @@
+.video {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5rem;
+}
+.video h3 {
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  margin: 0;
+  margin-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+.video p {
+  font-size: 25px;
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  margin: 50px auto 0 auto;
+}
+.video video {
+  align-items: center;
+  margin: auto;
+}

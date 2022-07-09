@@ -1,0 +1,18 @@
+@tangerine: 'Tangerine', cursive;
+@workSans: 'Work Sans', sans-serif;
+@Roboto: 'Roboto Flex', sans-serif;
+@Source: 'Source Sans Pro', sans-serif;
+@merriweather: 'Merriweather', serif;
+
+//box shadow
+
+@boxShadow: 5px 5px 40px -2px black;
+
+.transitions(@s: 1, @n, @cursor: pointer) {
+    transition: transform @s;
+
+    &:hover {
+        transform: scale(@n);
+        cursor: @cursor;
+    }
+}

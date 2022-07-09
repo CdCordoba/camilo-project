@@ -1,0 +1,32 @@
+.articulos__container {
+  padding: 30px;
+  background-color: #e0e0e0;
+}
+.articulos__container h2 {
+  font-family: 'Tangerine', cursive;
+  font-size: 120px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.articulo {
+  margin: 20px 0 10px 40px;
+  border-bottom: 1px solid gray;
+}
+.articulo h4 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 50px;
+  margin: 10px 0;
+}
+.articulo img {
+  width: 800px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px -5px black;
+}
+.articulo p {
+  font-size: 25px;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 80%;
+}
